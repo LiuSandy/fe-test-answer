@@ -76,6 +76,7 @@ export default function PanelLayout() {
 
       <main className="flex-1 overflow-x-auto overflow-y-hidden">
         <DndContext
+          id="panel-dnd-context"
           sensors={sensors}
           collisionDetection={closestCenter}
           modifiers={[restrictToHorizontalAxis]}
